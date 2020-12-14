@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="15" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-10T18:45:48 IST" name="Test suite" finished-at="2020-12-10T18:45:48 IST" duration-ms="100">
+    <groups>
+    </groups>
+    <test started-at="2020-12-10T18:45:48 IST" name="Test cases" finished-at="2020-12-10T18:45:48 IST" duration-ms="100">
+      <class name="testNG.DependanciesExample">
+        <test-method signature="highSchool()[pri:0, instance:testNG.DependanciesExample@23986957]" started-at="2020-12-10T18:45:48 IST" name="highSchool" finished-at="2020-12-10T18:45:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highSchool -->
+        <test-method signature="higherSecSchool()[pri:0, instance:testNG.DependanciesExample@23986957]" started-at="2020-12-10T18:45:48 IST" name="higherSecSchool" finished-at="2020-12-10T18:45:48 IST" depends-on-methods="testNG.DependanciesExample.highSchool" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- higherSecSchool -->
+        <test-method signature="engineeringCollege()[pri:0, instance:testNG.DependanciesExample@23986957]" started-at="2020-12-10T18:45:48 IST" name="engineeringCollege" finished-at="2020-12-10T18:45:48 IST" depends-on-methods="testNG.DependanciesExample.higherSecSchool" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineeringCollege -->
+      </class> <!-- testNG.DependanciesExample -->
+      <class name="testNG.SampleTestCase">
+        <test-method signature="caseFirst()[pri:0, instance:testNG.SampleTestCase@1e730495]" started-at="2020-12-10T18:45:48 IST" name="caseFirst" finished-at="2020-12-10T18:45:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- caseFirst -->
+      </class> <!-- testNG.SampleTestCase -->
+      <class name="testNG.PriorityCheckDriveCar">
+        <test-method signature="startCar()[pri:0, instance:testNG.PriorityCheckDriveCar@23f7d05d]" started-at="2020-12-10T18:45:48 IST" name="startCar" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCar -->
+        <test-method signature="putFirstGear()[pri:1, instance:testNG.PriorityCheckDriveCar@23f7d05d]" started-at="2020-12-10T18:45:48 IST" name="putFirstGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFirstGear -->
+        <test-method signature="putSecondGear()[pri:2, instance:testNG.PriorityCheckDriveCar@23f7d05d]" started-at="2020-12-10T18:45:48 IST" name="putSecondGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSecondGear -->
+        <test-method signature="putThirdGear()[pri:3, instance:testNG.PriorityCheckDriveCar@23f7d05d]" started-at="2020-12-10T18:45:48 IST" name="putThirdGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putThirdGear -->
+        <test-method signature="putFourthGear()[pri:4, instance:testNG.PriorityCheckDriveCar@23f7d05d]" started-at="2020-12-10T18:45:48 IST" name="putFourthGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFourthGear -->
+      </class> <!-- testNG.PriorityCheckDriveCar -->
+      <class name="testNG.SkipTestcaseExample">
+        <test-method signature="startCar()[pri:0, instance:testNG.SkipTestcaseExample@7d3a22a9]" started-at="2020-12-10T18:45:48 IST" name="startCar" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCar -->
+        <test-method signature="putFirstGear()[pri:1, instance:testNG.SkipTestcaseExample@7d3a22a9]" started-at="2020-12-10T18:45:48 IST" name="putFirstGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFirstGear -->
+        <test-method signature="putSecondGear()[pri:2, instance:testNG.SkipTestcaseExample@7d3a22a9]" started-at="2020-12-10T18:45:48 IST" name="putSecondGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSecondGear -->
+        <test-method signature="putThirdGear()[pri:3, instance:testNG.SkipTestcaseExample@7d3a22a9]" started-at="2020-12-10T18:45:48 IST" name="putThirdGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putThirdGear -->
+        <test-method signature="putFourthGear()[pri:4, instance:testNG.SkipTestcaseExample@7d3a22a9]" started-at="2020-12-10T18:45:48 IST" name="putFourthGear" finished-at="2020-12-10T18:45:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFourthGear -->
+      </class> <!-- testNG.SkipTestcaseExample -->
+    </test> <!-- Test cases -->
+  </suite> <!-- Test suite -->
+</testng-results>
